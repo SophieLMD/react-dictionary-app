@@ -20,13 +20,20 @@ export default function DictionarySearch() {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input
-          type="search"
-          placeholder="Search for a word..."
-          autoFocus={true}
-          onChange={handleInputWordChange}
-        />
-        <input type="submit" />
+        <div className="row">
+          <div className="col-9">
+            <input
+              type="search"
+              placeholder="Search for a word..."
+              autoFocus={true}
+              onChange={handleInputWordChange}
+              className="text-entry w-100"
+            />
+          </div>
+          <div className="col-3">
+            <input type="submit" className="btn btn-primary w-100" />
+          </div>
+        </div>
       </form>
     </div>
   );
