@@ -13,3 +13,16 @@
   display: block;
   margin: 0 auto;
 }
+.App footer .social-links {
+  text-align: center;
+  opacity: 0.7;
+  font-size: 14px;
+}
+.App a {
+  text-decoration: none;
+  color: #ec9b3b;
+  font-weight: 600;
+}
+.App a:hover {
+  text-decoration: underline;
+}

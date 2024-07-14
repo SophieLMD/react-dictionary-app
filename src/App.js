@@ -15,7 +15,7 @@ function App() {
           <DictionarySearch />
         </main>
         <footer>
-          <div className="social-links">
+          <div className="social-links fst-italic">
             Coded by{" "}
             <a
               href="https://www.linkedin.com/in/sophie-davies-52910b72"
