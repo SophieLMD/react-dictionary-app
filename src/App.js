@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import logo from "./logo.png";
 import "./App.css";
+import DictionarySearch from "./DictionarySearch";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
           <img src={logo} alt="logo" className="Designer-logo img-fluid" />
           <h1>Dictionary Application</h1>
         </header>
+        <main>
+          <DictionarySearch />
+        </main>
         <footer>
           <div className="social-links">
             Coded by{" "}
