@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./DictionarySearch.css";
 export default function DictionarySearch() {
-  let [inputWord, setInputWord] = useState("");
+  let [InputWord, setInputWord] = useState("");
   function search(event) {
     event.preventDefault();
-    alert("Searching");
+    alert(`Searching for ${InputWord}`);
   }
   function handleInputWordChange(event) {
     event.preventDefault();
-    console.log(event);
+    setInputWord(event.target.value);
   }
   return (
     <div className="Dictionary">
