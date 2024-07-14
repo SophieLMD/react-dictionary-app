@@ -4,7 +4,7 @@ export default function DictionarySearch() {
   let [InputWord, setInputWord] = useState("");
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${InputWord}`);
+    alert(`Searching for the word ${InputWord}.`);
   }
   function handleInputWordChange(event) {
     event.preventDefault();
