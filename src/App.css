@@ -3,15 +3,9 @@
   padding: 100px;
   margin: 20px auto;
 }
-
 .App h1 {
   color: #142d4c;
   text-align: center;
-}
-.App .Designer-logo {
-  max-width: 150px;
-  display: block;
-  margin: 0 auto;
 }
 .App footer .social-links {
   text-align: center;

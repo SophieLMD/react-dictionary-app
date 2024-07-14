@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.css";
-import logo from "./logo.png";
 import "./App.css";
 import DictionarySearch from "./DictionarySearch";
 
@@ -8,7 +7,6 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} alt="logo" className="Designer-logo img-fluid" />
           <h1>Dictionary Application</h1>
         </header>
         <main>
