@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./DictionarySearch.css";
+import "./Dictionary.css";
 import axios from "axios";
 export default function DictionarySearch() {
   let [InputWord, setInputWord] = useState("");
@@ -18,7 +18,7 @@ export default function DictionarySearch() {
     setInputWord(event.target.value);
   }
   return (
-    <div className="Dictionary">
+    <div className="Dictionary mb-3">
       <form onSubmit={search}>
         <div className="row">
           <div className="col-9">

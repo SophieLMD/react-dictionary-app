@@ -1,0 +1,8 @@
+.Dictionary form {
+  margin: 0 250px 0 250px;
+}
+.Dictionary .text-entry {
+  background-color: #ececec;
+  padding: 4px;
+  border-radius: 4px;
+}
