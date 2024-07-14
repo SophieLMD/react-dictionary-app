@@ -5,9 +5,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="logo" className="Designer-logo img-fluid" />
-        <h1>Dictionary Application</h1>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} alt="logo" className="Designer-logo img-fluid" />
+          <h1>Dictionary Application</h1>
+        </header>
         <footer>
           <div className="social-links">
             Coded by{" "}
@@ -36,7 +38,7 @@ function App() {
             </a>
           </div>
         </footer>
-      </header>
+      </div>
     </div>
   );
 }
