@@ -17,11 +17,19 @@ export default function Dictionary(props) {
     event.preventDefault();
     setInputWord(event.target.value);
   }
+  function handlePexelsResponse(response) {
+    console.log(response);
+  }
   function search() {
     let apiKey = "tfb34aff78c33f3d839do95056440025";
     //documentation: https://www.shecodes.io/learn/apis/dictionary
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${InputWord}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
+    let pexelsApiKey =
+      "pPzDIYc1roUCCHV0MqCXdh4TSrKW6PTPuZi4xiFCOJfzhX4v9L9jIUal";
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${InputWord}&per_page=1`;
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
   function load() {
     setLoaded(true);
