@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
-import DictionarySearch from "./DictionarySearch";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
           <h1>Dictionary Application</h1>
         </header>
         <main>
-          <DictionarySearch />
+          <Dictionary defaultKeyword="wine" />
         </main>
         <footer>
           <div className="social-links fst-italic">

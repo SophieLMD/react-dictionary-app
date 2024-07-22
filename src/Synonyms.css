@@ -1,0 +1,11 @@
+.Synonym ul {
+  font-weight: bold;
+  color: #3f94b9;
+}
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: #3f94b9;
+}

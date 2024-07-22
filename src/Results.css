@@ -1,0 +1,13 @@
+.Results section {
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.Results h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+}
