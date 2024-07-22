@@ -1,3 +1,12 @@
+.Dictionary section {
+  background-color: #f0fbfe;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
 .Dictionary form {
   margin: 30px 60px 10px 60px;
 }
@@ -18,6 +27,10 @@
   line-height: 1.7;
   font-size: 20px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.Dictionary .btn:hover {
+  background-color: #eb5f88;
+  color: white;
 }
 .Dictionary .hint {
   margin-left: 60px;

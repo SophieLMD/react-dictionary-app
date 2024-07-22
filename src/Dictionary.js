@@ -30,26 +30,28 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary mb-3">
-        <form onSubmit={handleSubmit}>
-          <div className="row">
-            <div className="col-9">
-              <input
-                type="search"
-                placeholder="Search for a word..."
-                autoFocus={true}
-                onChange={handleInputWordChange}
-                defaultValue={props.defaultKeyword}
-                className="text-entry"
-              />
+        <section>
+          <form onSubmit={handleSubmit}>
+            <div className="row">
+              <div className="col-9">
+                <input
+                  type="search"
+                  placeholder="Search for a word..."
+                  autoFocus={true}
+                  onChange={handleInputWordChange}
+                  defaultValue={props.defaultKeyword}
+                  className="text-entry"
+                />
+              </div>
+              <div className="col-3">
+                <input type="submit" className="btn btn-primary" />
+              </div>
             </div>
-            <div className="col-3">
-              <input type="submit" className="btn btn-primary" />
-            </div>
+          </form>
+          <div className="hint">
+            <em>suggested words: fire, obsolete, mountain, cheese...</em>
           </div>
-        </form>
-        <div className="hint">
-          <em>suggested words: fire, obsolete, mountain, cheese...</em>
-        </div>
+        </section>
         <Results results={results} word={InputWord} />
       </div>
     );
