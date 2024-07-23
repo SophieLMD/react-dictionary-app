@@ -7,7 +7,7 @@
 .App {
   background-image: url(image-books.png);
   background-repeat: repeat;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
   padding: 20px;
   font-family: "Lato", sans-serif;
@@ -32,7 +32,7 @@
 }
 .App a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: #eb5f88;
   font-weight: 600;
 }
 .App a:hover {
